@@ -1,0 +1,29 @@
+*:not(:defined) {
+    display: none;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 0.5208335vw;
+    background-color: #f4f3f8;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 30px;
+}
+
+@media (max-width: 48em) {
+    html {
+        font-size: 1.33333vw;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
